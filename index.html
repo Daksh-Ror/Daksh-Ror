@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Welcome Section -->
+    <div class="welcome-section">
+        <h1>Happy Birthday, [Girlfriend's Name]!</h1>
+        <p>Countdown to your special day:</p>
+        <div id="countdown"></div>
+    </div>
+
+    <!-- Interactive Birthday Card -->
+    <div class="card-section">
+        <h2>Open Your Birthday Card!</h2>
+        <button id="openCardBtn">Open Card</button>
+        <div id="cardMessage" class="hidden">
+            <h3>To the love of my life,</h3>
+            <p>You make every day brighter. I'm so lucky to have you in my life. Wishing you the happiest birthday ever!</p>
+            <p>Love, [Your Name]</p>
+        </div>
+    </div>
+
+    <!-- Slideshow Section -->
+    <div class="slideshow-section">
+        <h2>Our Memories Together</h2>
+        <div class="slideshow-container">
+            <div class="slides fade">
+                <img src="image1.jpg" alt="Memory 1">
+            </div>
+            <div class="slides fade">
+                <img src="image2.jpg" alt="Memory 2">
+            </div>
+            <div class="slides fade">
+                <img src="image3.jpg" alt="Memory 3">
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
